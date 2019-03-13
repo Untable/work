@@ -3,12 +3,10 @@
 
 int main()
 {
-    int b=1;
-    int a=0;
-    for (int i=5; i<=a; i--) {
-        printf("%d ",a);
+    char * p="helloworld";
+    int num = 1;
+    for (int i=0; i<num; i++) {
+        printf("%c  ",*(p+i));
     }
-    printf("wo hsi yizhian");
-    printf("hello world");
     return 0;
 }
