@@ -8,7 +8,7 @@ int main()
     for (int i=5; i<=a; i--) {
         printf("%d ",a);
     }
-    
+    printf("wo hsi yizhian");
     printf("hello world");
     return 0;
 }
